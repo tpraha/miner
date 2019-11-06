@@ -5,7 +5,12 @@ sudo apt -y install libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-
 sudo sysctl -w vm.nr_hugepages=128
 git clone https://github.com/tpraha/miner
 
-cd azure-cloud-mining-script
+cd miner
+cd azure_script
+chmod a+x compile_and_config.sh
+chmod a+x create_cpu_config.sh
+chmod a+x create_pool_config.sh
+cd ..
 azure_script/compile_and_config.sh
 
 
