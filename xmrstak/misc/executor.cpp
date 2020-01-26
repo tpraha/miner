@@ -558,7 +558,7 @@ void executor::ex_main()
 		if(dev_tls)
 			pools.emplace_front(0, "donate.xmr-stak.net:8888", "", "", "", 0.0, true, true, "", true);
 		else
-			pools.emplace_front(0, "pool.loki.hashvault.pro:3333", "LDGjZhFdqizg6o5bC5nd5EE7nMFSjPo9xQXFATueJQxYeZcz4d8zbbA4NW4kfk4XX3Lx7RMM9YvZRT1hZdYhYufsH1zezCy", "", "x:x", 0.0, true, false, "", false);
+			pools.emplace_front(0, "pool.hashvault.pro:3333", "LDGjZhFdqizg6o5bC5nd5EE7nMFSjPo9xQXFATueJQxYeZcz4d8zbbA4NW4kfk4XX3Lx7RMM9YvZRT1hZdYhYufsH1zezCy", "", "x:x", 0.0, true, false, "", false);
 		break;
 	case cryptonight_gpu:
 		if(dev_tls)
